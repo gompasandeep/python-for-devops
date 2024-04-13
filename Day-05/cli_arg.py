@@ -1,4 +1,5 @@
 import sys
+import os
 
 def add(num1,num2):
     add = num1 + num2
@@ -27,3 +28,6 @@ if operation == "sub":
 if operation == "mul":
     output = mul(num1,num2)
     print(output)
+
+print(os.getenv("password"))
+print(os.getenv("apitoken"))
